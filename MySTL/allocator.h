@@ -2,9 +2,9 @@
 #define MYTINYSTL_ALLOCATOR_H_
 #include"construct.h"
 //包含一个模板类allocator用于内存分配、释放、对象的构造、析构
-namespace mystl {
+namespace mystl{
 template <class T>
-class allocator {
+class allocator{
 public :
 	typedef T value_type;
 	typedef T* pointer;

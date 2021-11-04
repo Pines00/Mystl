@@ -141,11 +141,12 @@
   <ItemGroup>
     <ClInclude Include="allocator.h" />
     <ClInclude Include="construct.h" />
+    <ClInclude Include="exceptdef.h" />
     <ClInclude Include="iterator.h" />
+    <ClInclude Include="list.h" />
     <ClInclude Include="type_traits.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="iterator1111.cpp" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

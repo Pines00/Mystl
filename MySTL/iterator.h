@@ -3,7 +3,7 @@
 #define MYTINYSTL_ITERATOR_H_
 #include<cstddef>
 #include"type_traits.h"
-namespace mystl {
+namespace mystl{
 	struct input_iterator_tag {};
 	struct output_iterator_tag {};
 	struct forward_iterator_tag :public input_iterator_tag {};
@@ -11,7 +11,8 @@ namespace mystl {
 	struct random_access_iterator_tag :public bidirectional_iterator_tag {};
 
 	//iterator模板
-	template<class Category, class T, class Distance = ptrdiff_t, class Pointer = T*, class Reference = T&> struct iterator {
+	template<class Category, class T, class Distance = ptrdiff_t, class Pointer = T*, class Reference = T&> 
+	struct iterator {
 		typedef Category iterator_category;
 		typedef T value_type;
 		typedef Pointer pointer;
@@ -171,7 +172,7 @@ namespace mystl {
 	//反向迭代器 reverse_iterator
 	// 	   
 	template <class Iterator>
-	class reverse_iterator {
+	class reverse_iterator{
 	private:
 		Iterator current;
 	public :

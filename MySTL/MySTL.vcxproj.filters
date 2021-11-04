@@ -27,10 +27,17 @@
     <ClInclude Include="iterator.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="iterator1111.cpp">
+    <ClInclude Include="vector.h">
       <Filter>头文件</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="exceptdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
